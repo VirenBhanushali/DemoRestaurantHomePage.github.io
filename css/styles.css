@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color:  #f6b319;
+    height: auto;
+    width: 100%;
+}
+#logoimg{
+    background-image: url('../images/logo.jpg');
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px;
+    
+}
+#brandname{
+    color: black;
+    font-size: 20px;    
+    float: left;
+    padding-left: 30px;
+    font-family: fantasy;
+    
+}
+#certifiedlogo{
+    background-image: url('../images/certified.png');
+    width: 110px;
+    height: 20px;
+    float: left;
+    clear: left;
+    border-left:30px solid  #f6b319;
+}
+#navbutton{
+    background-color: chocolate;
+    float: right;
+}
+#collapseable-nav{
+    float: right;
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  }
+
+  li{
+      float: right;
+      border:10px solid  #f6b319;
+      text-align: center;
+      
+      
+  }
+  #nav-list a{
+      color:red;
+      text-align: right;
+      
+  }
+  .jumbotron {
+    background-image: url("../images/Resto-img.jpg");
+    background-size: cover;
+    height: 700px;
+    border: 30px solid #61122f;
+    border-bottom: 10px solid #61122f;
+    margin-bottom: 0%;
+  }
+  .listitems{
+      position: relative;
+      right: 0%;
+  }
+  @media (max-width:991px) {
+    li:hover{
+        background-color: peru;
+        opacity: 80%;
+    }
+      
+  }
+  .parent{
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      width: auto;
+      margin: 0%;
+      justify-content: center;
+      margin-bottom: 0%;
+      
+  }
+  .menu 
+  {
+      height: 300px;
+      width: 500px;
+      border: 25px solid  #61122f;
+      
+      background-image: url(../images/menu.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+  .specials 
+  {
+      height: 300px;
+      width: 500px;
+      border: 25px solid  #61122f;
+      
+      background-image: url(../images/specials.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+  .map
+  {
+      height: 300px;
+      width: 500px;
+      border: 25px solid  #61122f;
+      position: relative;
+      text-decoration: none;
+      
+      
+      
+  }
+  #mapiframe{
+      width: 100%;
+
+  }
+  .parenttext{
+      position: absolute;
+      bottom: 0%;
+      width: 100%;
+      background-color: black;
+      opacity: 60%;
+      text-align: center;
+      color: white;
+  }
+  
+  .mapcss{
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    background-color: black;
+    bottom: 0%;
+    opacity: 60%;
+    text-align: center;
+    color: white;
+  }
+  @media (max-width:1016px)
+  {
+      .map{
+          width: 939.2px;
+      }
+      .menu{
+        width: 939.2px;
+    }
+    .specials{
+        width: 939.2px;
+    }
+    #mapiframe{
+        width: 100%;
+        
+    }
+    
+  }
+  footer
+  {
+    background-color: #363636;
+    height: auto;
+  }
+  .container-footer{
+      
+      width: 100%;
+      height: auto;
+      margin-top: 0%;
+      display: flex;
+      flex-wrap: wrap;
+      width: auto;
+      margin: 0%;
+      justify-content: center;
+      margin-bottom: 0%;
+      position: relative;
+      
+  }
+
+  .timings 
+  {
+      height: 200px;
+      width: 500px;
+      border: 25px solid  #363636;
+      
+      
+      position: relative;
+  }
+  .slogan 
+  {
+      height: 200px;
+      width: 500px;
+      border: 25px solid #363636;
+      
+     
+      position: relative;
+  }
+  .address
+  {
+      height: 200px;
+      width: 500px;
+      border: 25px solid  #363636;
+      position: relative;
+      
+      
+  }
+  .timingstext
+  {
+      color:whitesmoke;
+      
+  }
+  footer{
+      margin:auto
+  }
+  @media(min-width:1016px) and (max-width:1295px) {
+      .address
+      {
+          
+          text-align: center;
+      }
+      
+  }

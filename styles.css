@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: #f6b319;
+    height: auto;
+}
+#logoimg{
+    background-image: url('../images/logo.jpg');
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px;
+    
+}
+#brandname{
+    color: black;
+    font-size: 20px;    
+    float: left;
+    padding-left: 30px;
+    font-family: fantasy;
+    
+}
+#certifiedlogo{
+    background-image: url('../images/certified.png');
+    width: 110px;
+    height: 20px;
+    float: left;
+    clear: left;
+    border-left:30px solid  #f6b319;
+    
+    
+    
+    
+
+}
