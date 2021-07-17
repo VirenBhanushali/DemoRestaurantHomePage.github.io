@@ -180,7 +180,7 @@ nav{
 
   .timings 
   {
-      height: 200px;
+      height: auto;
       width: 500px;
       border: 25px solid  #363636;
       
@@ -189,7 +189,7 @@ nav{
   }
   .slogan 
   {
-      height: 200px;
+      height: auto;
       width: 500px;
       border: 25px solid #363636;
       
@@ -198,7 +198,7 @@ nav{
   }
   .address
   {
-      height: 200px;
+      height: auto;
       width: 500px;
       border: 25px solid  #363636;
       position: relative;
@@ -213,11 +213,21 @@ nav{
   footer{
       margin:auto
   }
-  @media(min-width:1016px) and (max-width:1295px) {
+  @media(min-width:1016px) and (max-width:1296px) {
       .address
       {
           
-          text-align: center;
+          position:relative;
+          top: 100%;
+          right: 20%;
+          
       }
       
   }
+  @media(max-width:468px) {
+    .visible-lg{
+        display: none;
+
+    }
+    
+}
