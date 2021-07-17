@@ -229,5 +229,17 @@ nav{
         display: none;
 
     }
+
+   
     
+}
+@media(max-width:468px) {
+    .visible-lg{
+        display: none;
+
+
+    }
+    #brandname{
+        font-size: 13px;
+    }
 }
