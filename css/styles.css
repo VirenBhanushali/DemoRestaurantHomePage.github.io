@@ -181,6 +181,7 @@ nav{
   {
     background-color: #363636;
     height: auto;
+    position: relative;
   }
   .container-footer{
       
@@ -261,4 +262,169 @@ nav{
     #brandname{
         font-size: 13px;
     }
+}
+.container-footer{
+    height: auto;
+}
+.menulunch{
+    background-image: url(../images/lunch.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menusnacks{
+    background-image: url(../images/snacks.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menudinner{
+    background-image: url(../images/dinner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menuitalian{
+    background-image: url(../images/italian.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menuchinese{
+    background-image: url(../images/chinese.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menucontinental{
+    background-image: url(../images/continental.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menumexican{
+    background-image: url(../images/mexican.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menuindian{
+    background-image: url(../images/indian.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menuseafood{
+    background-image: url(../images/seafood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menubeverages{
+    background-image: url(../images/beverages.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menudesert{
+    background-image: url(../images/desrt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+.menubreakfast{
+    background-image: url(../images/breakfast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 0px;
+    border: 20px solid #61122f;
+}
+
+.menu-container{
+    height:auto;
+    width :100%;
+}
+#menuheading{
+    text-align: center;
+    color: whitesmoke;
+
+}
+.menuitems:hover{
+    cursor: pointer;
+}
+#specialheading{
+    text-align: center;
+    color: whitesmoke;
+
+}
+.breakfast-container{
+    height:auto;
+    width :100%;
+}
+.breakfastitemsimg{
+    background-image: url(../images/breakfast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 0px;
+    border: 25px solid #61122f;
+    position: relative;
+    padding: 0%;
+    right: -1%;
+}
+.breakfastitemsdes{
+    height: auto;
+    border: 25px solid #61122f;
+    color: whitesmoke;
+    position: relative;
+    padding: 0%;
+}
+#foodid{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: whitesmoke;
+    display: block;
+    background-color: black;
+    width: 20%;
+    text-align: center;
+    opacity: 70%;
+}
+#foodprice{
+    position: absolute;
+    top: 85%;
+    right: 0%;
+    color: whitesmoke;
+    display: block;
+    background-color: black;
+    width: 20%;
+    text-align: center;
+    opacity: 70%;
+}
+.menulink:active
+{
+   background-color: peru;
 }
